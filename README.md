@@ -6,8 +6,8 @@ Neste repositório encontram-se os meus projetos realizados e códigos de aprend
 
 ## Projeto 2: Criação de três modelos de classificação (KNN, Regressão Logística e Adaboost) para prever se o cliente de uma seguradora de automoveis vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
 
-## Projeto 3: Forecast ARIMA
+## Projeto 3: Criar um modelo 
 
-## Projeto 4: Cluster
+## Projeto 4: Criar uma segmentação de perfis de consumidores de um site de ecommerce via análise de cluster e gerar um sistema que preveja de acordo com a navegação oferecer produtos de acordo.
 
-## Projeto 5: Detecção de anomalias one-svm
+## Projeto 5: 
