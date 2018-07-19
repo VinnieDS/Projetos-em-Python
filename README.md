@@ -6,8 +6,8 @@ Neste repositório encontram-se os meus projetos realizados e códigos de aprend
 
 ## Projeto 2: Criação de três modelos de classificação (KNN, Regressão Logística e Adaboost) para prever se o cliente de uma seguradora de automoveis vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
 
-## Projeto 3: Forecast ARIMA
+## Projeto 3: Criação de uma segmentação de clientes de site de ecommerce via analise de cluster para gerar um sistema de recomendação de ofertas para esses clientes.
 
-## Projeto 4: Cluster
+## Projeto 4: Criação de modelo de detecção de fraudes de um banco via One Class SVM e gerar um aplicação para verficação de transações de maneira preventiva.
 
-## Projeto 5: Detecção de anomalias one-svm
+## Projeto 5: Analise de series temporais do fluxo de passageiros e realizar um forecast de 10 passos a frente da base de teste.
