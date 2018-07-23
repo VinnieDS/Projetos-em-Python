@@ -34,3 +34,9 @@ Dados de uma experiência sobre os efeitos dos ajustes da máquina no tempo para
 Um fabricante de acessórios automotivos fornece hardware, por exemplo, porcas,parafusos, arruelas e parafusos, para prender o acessório ao carro ou caminhão. Hardware é contado e empacotado automaticamente. Especificamente, os parafusos são despejados em um prato grande de metal. Uma placa que forma a parte inferior do prato gira no sentido anti-horário. Esta rotação força os parafusos para o exterior do prato e para cima ao longo de uma borda estreita. Devido à vibração do prato causado pela placa inferior girando, alguns parafusos caem da borda e de volta para o prato. A saliência espirala até um ponto onde os parafusos podem cair em uma panela em uma correia transportadora. Quando um raio cai, passa por um olho eletrônico que conta. Quando o contador eletrônico atinge o número de parafusos pré-definido, a rotação é interrompida e a correia transportadora é movida para frente.
 
 http://lib.stat.cmu.edu/datasets/bolts
+
+## Projeto 9: Estatísticas de aplicativos para dispositivos móveis (Apple iOS App Store).
+
+O cenário móvel em constante mudança é um espaço desafiador para navegar. . A porcentagem de dispositivos móveis em computadores está aumentando apenas. O Android detém cerca de 53,2% do mercado de smartphones, enquanto o iOS é de 43%. Para que mais pessoas façam o download do seu aplicativo, você precisa garantir que ele encontre o aplicativo com facilidade. A análise de aplicativos para dispositivos móveis é uma ótima maneira de entender a estratégia existente para impulsionar o crescimento e a retenção do usuário futuro.
+
+https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/home
