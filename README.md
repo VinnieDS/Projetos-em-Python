@@ -24,3 +24,8 @@ Este é provavelmente o conjunto de dados mais versátil, fácil e cheio de recu
 ## Projeto 7: Conjunto de Dados de Reconhecimento de Atividade Humana.
 Esse conjunto de dados é coletado de gravações de 30 sujeitos humanos capturados por meio de smartphones habilitados com sensores inerciais incorporados. Muitos cursos de aprendizado de máquina usam esses dados para fins de ensino. Agora é sua vez. Este é um problema de multi-classificação. O conjunto de dados tem 10.299 linhas e 561 colunas.
 https://rstudio-pubs-static.s3.amazonaws.com/291850_859937539fb14c37b0a311db344a6016.html
+
+## Projeto 8: Contador de parafusos.
+Dados de uma experiência sobre os efeitos dos ajustes da máquina no tempo para contar os parafusos.
+Um fabricante de acessórios automotivos fornece hardware, por exemplo, porcas,parafusos, arruelas e parafusos, para prender o acessório ao carro ou caminhão. Hardware é contado e empacotado automaticamente. Especificamente, os parafusos são despejados em um prato grande de metal. Uma placa que forma a parte inferior do prato gira no sentido anti-horário. Esta rotação força os parafusos para o exterior do prato e para cima ao longo de uma borda estreita. Devido à vibração do prato causado pela placa inferior girando, alguns parafusos caem da borda e de volta para o prato. A saliência espirala até um ponto onde os parafusos podem cair em uma panela em uma correia transportadora. Quando um raio cai, passa por um olho eletrônico que conta. Quando o contador eletrônico atinge o número de parafusos pré-definido, a rotação é interrompida e a correia transportadora é movida para frente. 
+http://lib.stat.cmu.edu/datasets/bolts
