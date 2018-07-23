@@ -6,8 +6,21 @@ Neste repositório encontram-se os meus projetos realizados e códigos de aprend
 
 ## Projeto 2: Criação de três modelos de classificação (KNN, Regressão Logística e Adaboost) para prever se o cliente de uma seguradora de automoveis vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
 
-## Projeto 3: Criação de uma segmentação de clientes de site de ecommerce via analise de cluster para gerar um sistema de recomendação de ofertas para esses clientes.
+## Projeto 3: Problema do Black Friday.
+Embora não saibamos o contexto em que John Keats mencionou isso, temos certeza sobre sua implicação na ciência de dados. Enquanto você teria aproveitado e ganhado exposição a problemas do mundo real neste desafio, aqui está outra oportunidade para sujar a sua mão com este problema prático desenvolvido pelo Analytics Vidhya. Este hackathon tem como objetivo fornecer uma configuração profissional para mostrar suas habilidades e competir com seus colegas, aprender coisas novas e alcançar uma curva de aprendizado íngreme.
+https://datahack.analyticsvidhya.com/contest/black-friday/
 
-## Projeto 4: Criação de modelo de detecção de fraudes de um banco via One Class SVM e gerar um aplicação para verficação de transações de maneira preventiva.
+## Projeto 4: Previsão do Empréstimo do Banco Loan.
+A empresa quer automatizar o processo de qualificação do empréstimo (tempo real) com base nos detalhes do cliente fornecidos ao preencher o formulário de inscrição on-line. Esses detalhes são Gênero, Estado Civil, Educação, Número de Dependentes, Renda, Valor do Empréstimo, Histórico de Crédito e outros. Para automatizar esse processo, eles criaram um problema para identificar os segmentos de clientes, os quais são elegíveis para o valor do empréstimo, para que possam segmentar especificamente esses clientes. Aqui eles forneceram um conjunto de dados parcial.
+https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/#data_dictionary
 
-## Projeto 5: Analise de series temporais do fluxo de passageiros e realizar um forecast de 10 passos a frente da base de teste.
+## Projeto 5: Time Series in Python.
+A previsão e modelagem de séries temporais desempenham um papel importante na análise de dados. A análise de séries temporais é um ramo especializado da estatística amplamente utilizado em campos como a Econometria e a Pesquisa Operacional. A série temporal está sendo amplamente usada em análise e ciência de dados. Isso é especificamente projetado problema de série temporal para você e desafio é prever o tráfego.
+https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/
+
+## Projeto 6: Classic Iris Data Set.
+Este é provavelmente o conjunto de dados mais versátil, fácil e cheio de recursos na literatura de reconhecimento de padrões. Nada poderia ser mais simples que o conjunto de dados da Iris para aprender técnicas de classificação. Se você é totalmente novo em ciência de dados, esta é sua linha de partida. Os dados têm apenas 150 linhas e 4 colunas.
+
+## Projeto 7: Conjunto de Dados de Reconhecimento de Atividade Humana.
+Esse conjunto de dados é coletado de gravações de 30 sujeitos humanos capturados por meio de smartphones habilitados com sensores inerciais incorporados. Muitos cursos de aprendizado de máquina usam esses dados para fins de ensino. Agora é sua vez. Este é um problema de multi-classificação. O conjunto de dados tem 10.299 linhas e 561 colunas.
+https://rstudio-pubs-static.s3.amazonaws.com/291850_859937539fb14c37b0a311db344a6016.html
