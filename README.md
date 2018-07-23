@@ -40,3 +40,9 @@ http://lib.stat.cmu.edu/datasets/bolts
 O cenário móvel em constante mudança é um espaço desafiador para navegar. . A porcentagem de dispositivos móveis em computadores está aumentando apenas. O Android detém cerca de 53,2% do mercado de smartphones, enquanto o iOS é de 43%. Para que mais pessoas façam o download do seu aplicativo, você precisa garantir que ele encontre o aplicativo com facilidade. A análise de aplicativos para dispositivos móveis é uma ótima maneira de entender a estratégia existente para impulsionar o crescimento e a retenção do usuário futuro.
 
 https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/home
+
+## Projeto 10: Dados Financeiros Históricos Completos Criptográficos.
+
+O recente interesse crescente em criptomoedas, especificamente como um veículo de investimento especulativo, provocou conversas globais nos últimos 12 meses. Embora esses dados estejam disponíveis em vários sites, há uma falta de compreensão sobre o que está impulsionando o aumento exponencial de muitas moedas individuais. Esse conjunto de dados pretende ser um ponto de partida para uma análise detalhada sobre o que está impulsionando a ação do preço e o que pode ser feito para prever movimentos futuros.
+
+https://www.kaggle.com/philmohun/cryptocurrency-financial-data/home
