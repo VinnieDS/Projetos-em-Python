@@ -8,14 +8,17 @@ Neste repositório encontram-se os meus projetos realizados e códigos de aprend
 
 ## Projeto 3: Problema do Black Friday.
 Embora não saibamos o contexto em que John Keats mencionou isso, temos certeza sobre sua implicação na ciência de dados. Enquanto você teria aproveitado e ganhado exposição a problemas do mundo real neste desafio, aqui está outra oportunidade para sujar a sua mão com este problema prático desenvolvido pelo Analytics Vidhya. Este hackathon tem como objetivo fornecer uma configuração profissional para mostrar suas habilidades e competir com seus colegas, aprender coisas novas e alcançar uma curva de aprendizado íngreme.
+
 https://datahack.analyticsvidhya.com/contest/black-friday/
 
 ## Projeto 4: Previsão do Empréstimo do Banco Loan.
 A empresa quer automatizar o processo de qualificação do empréstimo (tempo real) com base nos detalhes do cliente fornecidos ao preencher o formulário de inscrição on-line. Esses detalhes são Gênero, Estado Civil, Educação, Número de Dependentes, Renda, Valor do Empréstimo, Histórico de Crédito e outros. Para automatizar esse processo, eles criaram um problema para identificar os segmentos de clientes, os quais são elegíveis para o valor do empréstimo, para que possam segmentar especificamente esses clientes. Aqui eles forneceram um conjunto de dados parcial.
+
 https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/#data_dictionary
 
 ## Projeto 5: Time Series in Python.
 A previsão e modelagem de séries temporais desempenham um papel importante na análise de dados. A análise de séries temporais é um ramo especializado da estatística amplamente utilizado em campos como a Econometria e a Pesquisa Operacional. A série temporal está sendo amplamente usada em análise e ciência de dados. Isso é especificamente projetado problema de série temporal para você e desafio é prever o tráfego.
+
 https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/
 
 ## Projeto 6: Classic Iris Data Set.
@@ -23,9 +26,11 @@ Este é provavelmente o conjunto de dados mais versátil, fácil e cheio de recu
 
 ## Projeto 7: Conjunto de Dados de Reconhecimento de Atividade Humana.
 Esse conjunto de dados é coletado de gravações de 30 sujeitos humanos capturados por meio de smartphones habilitados com sensores inerciais incorporados. Muitos cursos de aprendizado de máquina usam esses dados para fins de ensino. Agora é sua vez. Este é um problema de multi-classificação. O conjunto de dados tem 10.299 linhas e 561 colunas.
+
 https://rstudio-pubs-static.s3.amazonaws.com/291850_859937539fb14c37b0a311db344a6016.html
 
 ## Projeto 8: Contador de parafusos.
 Dados de uma experiência sobre os efeitos dos ajustes da máquina no tempo para contar os parafusos.
-Um fabricante de acessórios automotivos fornece hardware, por exemplo, porcas,parafusos, arruelas e parafusos, para prender o acessório ao carro ou caminhão. Hardware é contado e empacotado automaticamente. Especificamente, os parafusos são despejados em um prato grande de metal. Uma placa que forma a parte inferior do prato gira no sentido anti-horário. Esta rotação força os parafusos para o exterior do prato e para cima ao longo de uma borda estreita. Devido à vibração do prato causado pela placa inferior girando, alguns parafusos caem da borda e de volta para o prato. A saliência espirala até um ponto onde os parafusos podem cair em uma panela em uma correia transportadora. Quando um raio cai, passa por um olho eletrônico que conta. Quando o contador eletrônico atinge o número de parafusos pré-definido, a rotação é interrompida e a correia transportadora é movida para frente. 
+Um fabricante de acessórios automotivos fornece hardware, por exemplo, porcas,parafusos, arruelas e parafusos, para prender o acessório ao carro ou caminhão. Hardware é contado e empacotado automaticamente. Especificamente, os parafusos são despejados em um prato grande de metal. Uma placa que forma a parte inferior do prato gira no sentido anti-horário. Esta rotação força os parafusos para o exterior do prato e para cima ao longo de uma borda estreita. Devido à vibração do prato causado pela placa inferior girando, alguns parafusos caem da borda e de volta para o prato. A saliência espirala até um ponto onde os parafusos podem cair em uma panela em uma correia transportadora. Quando um raio cai, passa por um olho eletrônico que conta. Quando o contador eletrônico atinge o número de parafusos pré-definido, a rotação é interrompida e a correia transportadora é movida para frente.
+
 http://lib.stat.cmu.edu/datasets/bolts
