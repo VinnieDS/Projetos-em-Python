@@ -1,10 +1,12 @@
 # Projetos de Machine Learning em Python, Scikit-learn, Keras e Tensorflow.
 
-Neste repositório encontram-se os meus projetos realizados e códigos de aprendizado de máquina e aprendizagem profunda em Python e scikit-learn. e a fonte de dados vem da UCI repositórios de base de Machine learning, Yahoo Finance e Kaggle.
+Neste repositório encontram-se os meus projetos realizados e códigos de aprendizado de máquina e aprendizagem profunda em Python e scikit-learn, Keras e Tensorflow.
 
 ## Projeto 1: Criação de dois modelos de regressão (Linear e Random Forest) para prever a demanda por peças de maquinario pesado por mês numa empresa de mineração e comparar os resultados e escolher o melhor via a métrica rsme para gerar um sistema de previsão de demanda.
+Para ajustar o estoque da empresa o setor de compras o proprio deseja um sistema de compras com base no historico de compras para melhorar o planejamento de compras. Realizar analise de series temporais verificar suas componentes e criar um modelo para gerar um forecast.
 
-## Projeto 2: Criação de três modelos de classificação (KNN, Regressão Logística e Adaboost) para prever se o cliente de uma seguradora de automoveis vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
+## Projeto 2: Criação de quatro modelos de classificação (KNN, Regressão Logística, Random Forest e Adaboost) para prever se o cliente de uma plano de saúde vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
+A empresa de plano de saúde que verificar dentro da sua carteira os clientes em fim de contrato se eles irão renovar seus contratos. E iremos desenvolver os quatro modelos e comparar a taxa de falsos positivos entre eles.
 
 ## Projeto 3: Problema do Black Friday.
 Embora não saibamos o contexto em que John Keats mencionou isso, temos certeza sobre sua implicação na ciência de dados. Enquanto você teria aproveitado e ganhado exposição a problemas do mundo real neste desafio, aqui está outra oportunidade para sujar a sua mão com este problema prático desenvolvido pelo Analytics Vidhya. Este hackathon tem como objetivo fornecer uma configuração profissional para mostrar suas habilidades e competir com seus colegas, aprender coisas novas e alcançar uma curva de aprendizado íngreme.
