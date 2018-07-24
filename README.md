@@ -3,7 +3,7 @@
 Neste repositório encontram-se os meus projetos realizados e códigos de aprendizado de máquina e aprendizagem profunda em Python e scikit-learn, Keras e Tensorflow.
 
 ## Projeto 1: Criação de dois modelos de regressão (Linear e Random Forest) para prever a demanda por peças de maquinario pesado por mês numa empresa de mineração e comparar os resultados e escolher o melhor via a métrica rsme para gerar um sistema de previsão de demanda.
-Para ajustar o estoque da empresa o setor de compras o proprio deseja um sistema de compras com base no historico de compras para melhorar o planejamento de compras. Realizar analise de series temporais verificar suas componentes e criar um modelo para gerar um forecast.
+Para ajustar o estoque da empresa o setor de compras o proprio deseja um sistema de compras com base no historico de compras para melhorar o planejamento de compras. Realizar analise de series temporais verificar suas componentes e criar um modelo capaz de para gerar um forecast.
 
 ## Projeto 2: Criação de quatro modelos de classificação (KNN, Regressão Logística, Random Forest e Adaboost) para prever se o cliente de uma plano de saúde vai renovar o seu seguro ou não e escolher o melhor modelo de acordo com a menhor taxa de falsos positivos para gerar um sistema de recomendação para a área comercial.
 A empresa de plano de saúde que verificar dentro da sua carteira os clientes em fim de contrato se eles irão renovar seus contratos. E iremos desenvolver os quatro modelos e comparar a taxa de falsos positivos entre eles.
