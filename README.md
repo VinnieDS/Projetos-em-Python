@@ -1,4 +1,4 @@
-# Projetos de Machine Learning em Python, Scikit-learn, Keras e Tensorflow.
+# Projetos de Machine Learning em Python utilizando Scikit-learn, Keras e Tensorflow.
 
 Neste repositório encontram-se os meus projetos realizados e códigos de aprendizado de máquina e aprendizagem profunda em Python e scikit-learn, Keras e Tensorflow.
 
