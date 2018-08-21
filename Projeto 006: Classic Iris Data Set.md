@@ -12,11 +12,28 @@ Estes dados diferem dos dados apresentados no artigo de Fishers (identificado po
 A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no quarto recurso. A 38ª amostra: 4.9.3.6.1.4.0.1, "Iris-setosa",
 onde os erros estão na segunda e terceira características.
 
-### Import packages and data
+Neste projeto o dataset Iris tem análise explorátoria de dados(tabelas e gráficos , 
+
+### Packages e entrada de dados.
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 iris = pd.read_csv("../input/Iris.csv")
-print(iris.shape)
+print(iris.head())
+```
+### Análise explorátoria de dados.
+
+* Gráficos
+```{python, cache=FALSE, message=FALSE, warning=FALSE}
+iris.plot(kind="scatter",x="SepalLengthCm",y="SepalWidthCm")
+sns.jointplot(x="SepalLengthCm",y="SepalWidthCm",data=iris)
+sns.FacetGrid(iris,hue="Species",size=7.5) \
+   .map(plt.scatter,"SepalLengthCm","SepalWidthCm") \
+   .add_legend() 
+sns.boxplot(x="Species",y="PetalLengthCm",data=iris)
+ax = sns.boxplot(x="Species",y="PetalLengthCm",data=iris)
+ax = sns.stripplot(x="Species",y="PetalLengthCm",data=iris,jitter=True,edgecolor="gray")
+sns.jointplot("SepalLengthCm","SepalWidthCm",kind="kde",data=iris)
+sns.jointplot("SepalLengthCm","SepalWidthCm",kind="hex",data=iris,joint_kws=dict(bins=10))
 ```
