@@ -1,4 +1,4 @@
-Projeto 6: Classic Iris Data Set.
+# Projeto 6: Classic Iris Data Set.
 
 Este é talvez o banco de dados mais conhecido encontrado na literatura sobre reconhecimento de padrões. O papel de Fisher é um clássico
 no campo e é referenciado com frequência até hoje. (Veja Duda & Hart, por exemplo.) O conjunto de dados contém 3 classes de 50 instâncias
