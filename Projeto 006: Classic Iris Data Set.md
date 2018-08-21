@@ -9,12 +9,11 @@ Atributo previsto: classe da planta da íris.
 
 Este é um domínio extremamente simples.
 Estes dados diferem dos dados apresentados no artigo de Fishers (identificado por Steve Chadwick, spchadwick '@' espeedaz.net). 
-A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no quarto recurso. A 38ª amostra: 4.9.3.6.1.4.0.1, "Iris-setosa",
-onde os erros estão na segunda e terceira características.
+A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no quarto recurso. A 38ª amostra: 4.9.3.6.1.4.0.1, "Iris-setosa", onde os erros estão na segunda e terceira características.
 
 ### Seleção de Modelos.
 
-* 
+*  Import and input data
 
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 from sklearn import datasets
@@ -25,20 +24,22 @@ color_list_light = ['#FFFFAA', '#EFEFEF', '#AAFFAA']#, '#AAAAFF']
 color_list_bold = ['#EEEE00', '#000000', '#00CC00']#, '#0000CC']
 custom_cmap2 = ListedColormap(color_list_light)
 custom_cmap1 = ListedColormap(color_list_bold)
+```
 
-# Training classifiers
+* Training classifiers
+```{python, cache=FALSE, message=FALSE, warning=FALSE}
 clf1 = DecisionTreeClassifier(max_depth=5)
 clf2 = KNeighborsClassifier(n_neighbors=6)
 clf3 = SVC(kernel='rbf', probability=True,gamma=5,C=1)
 eclf = VotingClassifier(estimators=[('dt', clf1),('knn', clf2),('svc', clf3)],voting='soft',weights=[2, 1, 2])
-
 clf1.fit(X, y)
 clf2.fit(X, y)
 clf3.fit(X, y)
 eclf.fit(X, y)
+```
 
-# Plotting decision regions
-
+* Plotting decision regions
+```{python, cache=FALSE, message=FALSE, warning=FALSE}
 x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
 y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
 xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1),np.arange(y_min, y_max, 0.1))
@@ -50,5 +51,4 @@ for idx, clf, tt in zip(product([0, 1], [0, 1]), [clf1, clf2, clf3, eclf], ['Dec
     axarr[idx[0], idx[1]].scatter(X[:, 0], X[:, 1], c=y,cmap=custom_cmap1,s=20, edgecolor='black')
     axarr[idx[0], idx[1]].set_title(tt)
 plt.show()
-    
 ```
