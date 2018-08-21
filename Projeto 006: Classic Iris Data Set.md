@@ -13,7 +13,7 @@ A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no qu
 onde os erros estão na segunda e terceira características.
 
 ### Import packages and data
-```{r, cache=FALSE, message=FALSE, warning=FALSE}
+```{py, cache=FALSE, message=FALSE, warning=FALSE}
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
