@@ -42,7 +42,8 @@ x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
 y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
 xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1),np.arange(y_min, y_max, 0.1))
 f, axarr = plt.subplots(2, 2, sharex='col', sharey='row', figsize=(10, 8))
-for idx, clf, tt in zip(product([0, 1], [0, 1]), [clf1, clf2, clf3, eclf], ['Decision Tree (depth=5)', 'KNN (k=6)','Kernel SVM', 'Soft Voting']):
+for idx, clf, tt in zip(product([0, 1], [0, 1]), [clf1, clf2, clf3, eclf], 
+                       ['Decision Tree (depth=5)', 'KNN (k=6)','Kernel SVM', 'Soft Voting']):
     Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     axarr[idx[0], idx[1]].contourf(xx, yy, Z, alpha=0.8,cmap=custom_cmap2)
