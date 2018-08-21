@@ -8,7 +8,7 @@ NÃO são linearmente separáveis um do outro.
 Atributo previsto: classe da planta da íris.
 
 Este é um domínio extremamente simples.
-Estes dados diferem dos dados apresentados no artigo de Fishers (identificado por Steve Chadwick, spchadwick '@' espeedaz.net). 
+Estes dados diferem dos dados apresentados no artigo de Fishers (identificado por Steve Chadwick, spchadwick@espeedaz.net). 
 A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no quarto recurso. A 38ª amostra: 4.9.3.6.1.4.0.1, "Iris-setosa", onde os erros estão na segunda e terceira características.
 
 ## Voting Classifier
