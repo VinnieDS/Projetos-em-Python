@@ -27,13 +27,18 @@ print(iris.head())
 * Gráficos
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 iris.plot(kind="scatter",x="SepalLengthCm",y="SepalWidthCm")
+
 sns.jointplot(x="SepalLengthCm",y="SepalWidthCm",data=iris)
-sns.FacetGrid(iris,hue="Species",size=7.5) \
-   .map(plt.scatter,"SepalLengthCm","SepalWidthCm") \
-   .add_legend() 
+
+sns.FacetGrid(iris,hue="Species",size=7.5) \ .map(plt.scatter,"SepalLengthCm","SepalWidthCm") \ .add_legend() 
+
 sns.boxplot(x="Species",y="PetalLengthCm",data=iris)
+
 ax = sns.boxplot(x="Species",y="PetalLengthCm",data=iris)
+
 ax = sns.stripplot(x="Species",y="PetalLengthCm",data=iris,jitter=True,edgecolor="gray")
+
 sns.jointplot("SepalLengthCm","SepalWidthCm",kind="kde",data=iris)
+
 sns.jointplot("SepalLengthCm","SepalWidthCm",kind="hex",data=iris,joint_kws=dict(bins=10))
 ```
