@@ -11,9 +11,7 @@ Este é um domínio extremamente simples.
 Estes dados diferem dos dados apresentados no artigo de Fishers (identificado por Steve Chadwick, spchadwick '@' espeedaz.net). 
 A 35ª amostra deve ser: 4.9.3.1.1.5,0.2, "Iris-setosa", onde o erro está no quarto recurso. A 38ª amostra: 4.9.3.6.1.4.0.1, "Iris-setosa", onde os erros estão na segunda e terceira características.
 
-### Seleção de Modelos.
-
-*  Import and input data
+### Import and input data
 
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 from sklearn import datasets
@@ -26,7 +24,7 @@ custom_cmap2 = ListedColormap(color_list_light)
 custom_cmap1 = ListedColormap(color_list_bold)
 ```
 
-* Training classifiers
+### Training classifiers
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 clf1 = DecisionTreeClassifier(max_depth=5)
 clf2 = KNeighborsClassifier(n_neighbors=6)
@@ -38,7 +36,7 @@ clf3.fit(X, y)
 eclf.fit(X, y)
 ```
 
-* Plotting decision regions
+### Plotting decision regions
 ```{python, cache=FALSE, message=FALSE, warning=FALSE}
 x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
 y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
